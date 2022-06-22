@@ -1,0 +1,76 @@
+{
+  "Data": [
+    {
+      "id": 1,
+      "name": "Inception",
+      "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
+      "cast": "Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page, Ken Watanabe",
+      "genre": "Action, Adventure, Sci-Fi",
+      "language": "English",
+      "like": false
+    },
+    {
+      "id": 2,
+      "name": "Peter Pan",
+      "description": "Wendy and her brothers are whisked away to the magical world of Neverland with the hero of their stories, Peter Pan.",
+      "cast": "Bobby Driscoll, Kathryn Beaumont, Hans Conried, Bill Thompson",
+      "genre": "Animation, Adventure, Family",
+      "language": "English",
+      "like": false
+    },
+    {
+      "id": 3,
+      "name": "The Kashmir Files ",
+      "description": "The Kashmir Files' is a story, based on video interviews of the first generation victims of the Genocide of Kashmiri Pandit Community In 1990.",
+      "cast": "Mithun Chakraborty, Anupam Kher, Darshan Kumaar, Pallavi Joshi",
+      "genre": "Drama",
+      "language": "Hindi",
+      "like": false
+    },
+    {
+      "id": 4,
+      "name": "3 Idiots",
+      "description": "Two friends are searching for their long lost companion. They revisit their college days and recall the memories of their friend who inspired them to think differently, even as the rest of the world called them idiot.",
+      "cast": "Aamir Khan, Madhavan, Mona Singh, Sharman Joshi,Sharman Joshi",
+      "genre": "Comedy, Drama",
+      "language": "Hindi",
+      "like": false
+    },
+    {
+      "id": 5,
+      "name": "Vaaranam Aayiram",
+      "description": "A father and son help each other through growing up, romance, tragedy, and adventure.",
+      "cast": "Suriya, Simran, Ramya, Sameera Reddy",
+      "genre": "Action, Drama, Musical",
+      "language": "Tamil",
+      "like": false
+    },
+    {
+      "id": 6,
+      "name": "Pithamagan",
+      "description": "Chittan, a social outcast, has grown up in a cemetery. A drug dealer finds him a job in a cannabis farm. In prison, he meets a conman, Shakti. This friendship transforms him from his stony existence.",
+      "cast": "Vikram, Suriya, Laila, Sangeetha",
+      "genre": "Action, Drama",
+      "language": "Tamil",
+      "like": false
+    },
+    {
+      "id": 7,
+      "name": "Kannathil Muthamittal",
+      "description": "A little girl is told by her parents that she is adopted. Determined to find her real mother, she begs to be taken to Sri Lanka, where her mother works with a militant group of activists.",
+      "cast": "Madhavan, Simran, Prakash Raj, Nandita Das",
+      "genre": "Action, Drama, War",
+      "language": "Tamil",
+      "like": false
+    },
+    {
+      "id": 8,
+      "name": "Asuran",
+      "description": "The teenage son of a farmer from an underprivileged caste kills a rich, upper caste landlord. Will the farmer, a loving father and a pacifist by heart, be able to save his hot-blooded son is the rest of the story.",
+      "cast": "Dhanush, Manju Warrier, Prakash Raj, Pasupathy",
+      "genre": "Action, Drama",
+      "language": "Tamil",
+      "like": false
+    }
+  ]
+}

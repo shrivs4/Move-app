@@ -1,13 +1,175 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-size: 16px;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #efefef;
+}
+
+.Header{
+  text-align: center;
+  background-color: #15133C;
+  color: whitesmoke;
+}
+
+.Nav{
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  background-color: #2A2550;
+}
+
+.Nav ul{
+  display: flex;
+  padding: 5px;
+  list-style: none;
+}
+
+.Nav li:hover{
+  border: 1px white solid;
+  border-radius: 80px;
+  background-color: #F8CB2E;
+}
+
+.Nav li{
+  padding: 10px;
+  margin: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.Nav input{
+  width: 500px;
+  text-align: center;
+  margin: 10px;
+  padding: 5px 20px;
+  border: black 2px solid;
+}
+
+.Nav button{
+  padding: 5px;
+  background-color: black;
+  color: whitesmoke;
+  font-size: 15px
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px 10px;
+  margin-top: 5px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #383838;
+}
+
+.Home{
+  height: 200%;
+  color: whitesmoke;
+}
+
+.Home h3{
+  background-color: #066163;
+  margin: 2px;
+  padding: 2px;
+  border: 0.5px white solid;
+}
+
+.Home p{
+  letter-spacing: 0.5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-bottom: 0.5px solid white;
+}
+
+.Home button{
+  background-color: #066163;
+  color: whitesmoke;
+  padding: 5px;
+  margin-top: 5px;
+  font-weight: bolder;
+  border-radius: 80px;
+}
+
+.Home h1{
+  color: black;
+  text-align: center;
+}
+
+.AddMovie{
+  text-align: center;
+  width: 20%;
+  margin: auto;
+}
+
+.AddMovie h2{
+  margin: 10px;
+}
+
+.AddMovie form{
+  display: flex;
+  flex-direction: column;
+}
+
+.AddMovie input label {
+  margin: 10px;
+}
+
+.AddMovie select{
+  text-align: center;
+}
+
+.AddMovie button{
+  border-radius: 95px;
+  background-color:#066163;
+  color: #efefef;
+  width: 50%;
+  height: 30px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.AddMovie button:hover{
+  background-color: #383838;
+}
+
+.Footer{
+  margin-top: 80%;
+  display: flex;
+  justify-content: center;
+  background-color: #15133C;
+  color: #efefef;
+  padding: 10px;
 }
